@@ -27,12 +27,35 @@
     font-weight: 500;
     font-size: 18px;
 }
+.d-text
+{
+    color: var(--text-color);
+    
+}
 
 .del-img 
 {
-  min-height: 1px;
-  min-width: 1px;
+ height: 150px;
+ 
+ padding-left: 30%;
+
+
+ 
     
+}
+.i
+{
+    padding-left:5px ;
+    padding-right: 5px;
+}
+
+.nform
+{
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 

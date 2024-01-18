@@ -10,16 +10,18 @@ export default function Delivery() {
         className="container - fluid px-4 py-5 hero-container"
         id="featured-3"
       >
-        <h2 className="pb-2 border-bottom hero-text">Columns with icons</h2>
+        <h2 className="display-5 fw-bold lh-1 mb-3 hero-text d-text">
+          HOW WEBSITE WORKS{" "}
+        </h2>
 
         <div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
-          <img className="del-img" src={process1} alt="i" />
           <div className="feature col">
             <div>
               <svg className="bi" width="1em" height="1em">
                 <use xlinkHref="#collection" />
               </svg>
             </div>
+            <img className="del-img" src={process1} alt="i" />
 
             <p className="hero-text">
               Paragraph of text beneath the heading to explain the heading.
